@@ -28,10 +28,8 @@ function switchOnCharmFromTip(tip)
 {
   switch(tip)
   {
-    case 'generous': "Thank you so much.";
-    break;
+    case 'generous': return"Thank you so much.";
     case "not as generous":  "Thank You";
-    break;
     default: "Bye.";
   }
 }
