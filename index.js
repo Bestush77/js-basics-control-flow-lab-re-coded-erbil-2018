@@ -32,5 +32,6 @@ function switchOnCharmFromTip(tip)
     break;
     case 50:  "Thank You";
     break;
+    default: 
   }
 }
